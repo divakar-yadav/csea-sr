@@ -1,0 +1,26 @@
+# datasets (download separately, see README)
+data/
+# training state / logs (released weights live in weights/)
+experiments/
+paper_kit_download/
+wandb/
+# build artefacts
+__pycache__/
+*.pyc
+*.zip
+paper/*.pdf
+paper/*.log
+paper/*.aux
+paper/*.blg
+paper/*.bbl
+paper/*.out
+paper/*.bak
+paper/main.bib.bak
+.venv/
+
+# paper source and paper-only tooling are kept out of this repo
+paper/
+tools/fetch_bib.py
+tools/fix_bib.py
+tools/make_results_tex.py
+tools/make_figures.py

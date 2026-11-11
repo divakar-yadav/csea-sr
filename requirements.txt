@@ -1,0 +1,10 @@
+# Install PyTorch with CUDA first (CUDA 12.8 build is required for RTX 50-series / sm_120):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# then:
+#   pip install -r requirements.txt
+torch>=2.7
+numpy>=1.26
+pillow>=10.0
+matplotlib>=3.8
+wandb>=0.19
+certifi
